@@ -30,7 +30,5 @@ yarn start 1000
   const example = './1000/stdin.txt'; 
   const fs = require('fs');
   let [input] = fs.readFileSync(example).toString().trim().split('\n');
-  .
-  .
-  .
+  ....
 ```

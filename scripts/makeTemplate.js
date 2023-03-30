@@ -1,8 +1,8 @@
-const { mkdir, open, writeFileSync } = require('fs');
+const { mkdirSync, open, writeFileSync } = require('fs');
 
 const makeDirName = process.argv[2];
 
-mkdir(makeDirName, err => {
+mkdirSync(makeDirName, err => {
   if(err && err.code === 'EEXIST') {
     console.error(`ERROR: already exist ${makeDirName}`);
     return;
