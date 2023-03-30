@@ -1,0 +1,16 @@
+{
+  "name": "backjun-js-algorithm",
+  "version": "1.0.0",
+  "description": "백준 node.js 풀이전용 패키지",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "make": "node ./scripts/makeTemplate.js",
+    "start": "node ./scripts/start.js"
+  },
+  "author": "",
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "readline": "^1.3.0"
+  }
+}
