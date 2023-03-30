@@ -14,3 +14,17 @@ yarn make 1000
 
 yarn start 1000 
 ```
+
+### !!문제 제출시
+```
+  백준 사이트에서 과제 제출시 템플릿 소스 중 일부 수정해야 한다.
+  아래 텦플릿에서 fs.readFileSync(example) -> fs.readFileSync(product)
+
+  const product = '/dev/stdin';
+  const example = './1000/stdin.txt'; 
+  const fs = require('fs');
+  let [input] = fs.readFileSync(example).toString().trim().split('\n');
+  .
+  .
+  .
+```
